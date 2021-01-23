@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css(Expense).css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="firstdiv">
+            <div class="headlines">
+                <ul class="head0" type="none">
+                    <li class="head1">Expense Tracker</li>
+                    <li class="head2"><marquee direction="right">ADD A NEW ITEM :~</marquee></li>
+                </ul>
+            </div>
+            <form>
+                <ul type="none">
+                    <li>
+                        <div class="div1">
+                        <p>Name : <input type="text" id="name" placeholder="Whart was the expense made?"></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="div2">
+                            <p>Date : <input type="date" id="cal"></p>
+                            <p>Amount : <input type="text" id="amount"></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="div3">
+                            <input type="button" value="Add Expense" id="add">
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="seconddiv">
+            <div class="div4">
+                <table class="tableExp">
+                    <tr>
+                        <th class="td">Name</th>
+                        <th class="td">Date</th>
+                        <th class="td" colspan="2">Amount</th>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="javascript(Expense).js"></script>
+</body>
+
+</html>
+<!--
+    structure
+
+    <tr class="trexp">
+        <td class="td-list">dominosapp</td>
+        <td class="td-list">2020-09-18</td>
+        <td class="td-list">&#8377 20</td>
+        <td class="td-list">
+            <button>
+                <i class="fas fa-times"></i>
+            </button>
+        </td>
+    </tr>
+-->

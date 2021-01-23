@@ -1,0 +1,109 @@
+body{
+    background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% );
+    margin: 0;
+    padding: 0;
+}
+.head0{
+    background-color: rgb(255, 153, 170);
+}
+.head1{
+    font-size: 4rem;
+    color: darkslategrey;
+    text-align: center;
+}
+.head2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkslategrey;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+/*div1*/
+.div1{
+    display: flex;
+    font-size: 1rem;
+    margin-left: 130px;
+}
+.div1 #name{
+    height: 3rem;
+    width: 75rem;
+    font-size: 1rem;
+}
+.div1,.div2{
+    font-weight: bold;
+}
+/*div2*/
+.div2{
+    display: flex;
+    font-size: 1rem;
+    margin-left: 130px;
+}
+.div2 #cal{
+    height: 3rem;
+    width: 34rem;
+    font-size: 1rem;
+    padding-right: 10px;
+}
+.div2 #amount{
+    margin-left: ;
+    height: 3rem;
+    width: 34.7rem;
+    font-size: 1rem;
+}
+
+/*div3*/
+.div3{
+    margin-left: 12.5rem;
+} 
+.div3 #add{
+    padding: 15px;
+    font-size: 0.9rem;
+    transition: all 0.6s ease-in-out;
+    background-color: cornflowerblue;
+    color: rgb(25, 48, 48);
+    border: 2px solid white;
+}
+.div3 #add:hover{
+    color: white;
+    background-color: green;
+    border: 2px solid black;
+}
+table{
+    border:2px solid white;
+}
+table{
+    margin-left: 13.5rem;
+    margin-top: 2rem;
+    text-align: left;
+    
+}
+th{
+    border-bottom: 2px solid white;
+    font-size: 25px;
+    background-color: rgb(255, 182, 194);
+    color: rgb(34, 56, 56);
+}
+.td{
+    padding-right: 333px;
+}
+.fa-times{
+    pointer-events: none;
+}
+
+td{
+    font-size: 20px;
+}
+.td-list-3{
+    padding-right: 40px;
+}
+.td-list-4{
+    color: white;
+    background-color: maroon;
+    border-color: white;
+    font-size: 20px;
+    margin: 5px;
+    border-width: 3px;
+}
+.td-list-4:hover{
+    border-color: greenyellow;
+}
